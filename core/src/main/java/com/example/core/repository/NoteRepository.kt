@@ -10,5 +10,4 @@ class NoteRepository(val noteDataSource: NoteDataSource) {
     suspend fun  getNote(id:Long) = noteDataSource.get(id)
 
     suspend fun  getAll () = noteDataSource.getAll()
-
 }
