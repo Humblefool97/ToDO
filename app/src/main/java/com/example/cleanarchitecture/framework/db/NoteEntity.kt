@@ -24,7 +24,8 @@ data class NoteEntity(
             title = note.title,
             content = note.content,
             createTime = note.creationTime,
-            updateTime = note.updateTime
+            updateTime = note.updateTime,
+            id = note.id
         )
     }
 
