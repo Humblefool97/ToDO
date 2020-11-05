@@ -82,7 +82,7 @@ class NoteFragment : Fragment() {
             note?.let {
                 currentNote = it
                 editTextTitle.setText(it.title, TextView.BufferType.EDITABLE)
-                contentEditText.setText(it.title, TextView.BufferType.EDITABLE)
+                contentEditText.setText(it.content, TextView.BufferType.EDITABLE)
             }
         })
     }
